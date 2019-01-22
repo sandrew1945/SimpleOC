@@ -12,6 +12,7 @@
 		C418B81B21E4793A002F69DE /* HelloWorldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C418B81921E4793A002F69DE /* HelloWorldViewController.m */; };
 		C42C7C7821ED793600580830 /* CustomTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C7C7721ED793600580830 /* CustomTableCell.m */; };
 		C42C7C7B21ED7C9E00580830 /* CustomCellTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C42C7C7A21ED7C9E00580830 /* CustomCellTableViewController.m */; };
+		C4339DD321F6B19C00314BCB /* StackLayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C4339DD221F6B19C00314BCB /* StackLayoutViewController.m */; };
 		C446409621EC173D00D166CB /* nativeplace.plist in Resources */ = {isa = PBXBuildFile; fileRef = C446409521EC173D00D166CB /* nativeplace.plist */; };
 		C446409A21EC593900D166CB /* EventCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C446409921EC593900D166CB /* EventCollectionViewCell.m */; };
 		C44640A521EC61F600D166CB /* basketball.gif in Resources */ = {isa = PBXBuildFile; fileRef = C446409C21EC61F600D166CB /* basketball.gif */; };
@@ -88,6 +89,8 @@
 		C42C7C7721ED793600580830 /* CustomTableCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomTableCell.m; sourceTree = "<group>"; };
 		C42C7C7921ED7C9E00580830 /* CustomCellTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCellTableViewController.h; sourceTree = "<group>"; };
 		C42C7C7A21ED7C9E00580830 /* CustomCellTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellTableViewController.m; sourceTree = "<group>"; };
+		C4339DD121F6B19C00314BCB /* StackLayoutViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = StackLayoutViewController.h; path = "Simple OC/ViewController/StackLayoutExample/StackLayoutViewController.h"; sourceTree = SOURCE_ROOT; };
+		C4339DD221F6B19C00314BCB /* StackLayoutViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = StackLayoutViewController.m; path = "Simple OC/ViewController/StackLayoutExample/StackLayoutViewController.m"; sourceTree = SOURCE_ROOT; };
 		C446409521EC173D00D166CB /* nativeplace.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = nativeplace.plist; sourceTree = "<group>"; };
 		C446409821EC593900D166CB /* EventCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EventCollectionViewCell.h; sourceTree = "<group>"; };
 		C446409921EC593900D166CB /* EventCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EventCollectionViewCell.m; sourceTree = "<group>"; };
@@ -210,6 +213,16 @@
 				C44EC5F721EEF6B0000943AA /* SectionTableViewController.m */,
 			);
 			path = TableViewExample;
+			sourceTree = "<group>";
+		};
+		C4339DCC21F6B03100314BCB /* StackLayoutExample */ = {
+			isa = PBXGroup;
+			children = (
+				C4339DD121F6B19C00314BCB /* StackLayoutViewController.h */,
+				C4339DD221F6B19C00314BCB /* StackLayoutViewController.m */,
+			);
+			name = StackLayoutExample;
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 		C446409721EC58DA00D166CB /* CollectionViewExample */ = {
@@ -391,6 +404,7 @@
 		C4EC71C421E33FCB004F10A0 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				C4339DCC21F6B03100314BCB /* StackLayoutExample */,
 				C401F26421F1A2DB0056FD58 /* StaticLayoutExample */,
 				C44EC5F921EF0E4B000943AA /* RefreshTableExample */,
 				C42C7C7321ED72CF00580830 /* TableViewExample */,
@@ -534,6 +548,7 @@
 				C401F26821F1A32E0056FD58 /* StaticTableLayoutViewController.m in Sources */,
 				C448748A21E6E657000C7E69 /* WebViewController.m in Sources */,
 				C418B81B21E4793A002F69DE /* HelloWorldViewController.m in Sources */,
+				C4339DD321F6B19C00314BCB /* StackLayoutViewController.m in Sources */,
 				C4EC71BE21E33F53004F10A0 /* main.m in Sources */,
 				C4A3BAED21E5C41900C282A6 /* SwithSliderViewController.m in Sources */,
 				C42C7C7821ED793600580830 /* CustomTableCell.m in Sources */,

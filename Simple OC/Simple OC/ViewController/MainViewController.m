@@ -120,7 +120,8 @@ static NSString *CELL_INDENTIFIER = @"cellIdentifier";
                        @{@"title":@"Custom Cell-小栗子", @"controller":@"CustomCellTableViewController"},
                        @{@"title":@"Section Tableview-小栗子", @"controller":@"SectionTableViewController"},
                        @{@"title":@"Refresh Tableview-小栗子", @"controller":@"RefreshTableViewController"},
-                       @{@"title":@"StaticTable Layout-小栗子", @"controller":@"StaticTableLayoutViewController"}
+                       @{@"title":@"StaticTable Layout-小栗子", @"controller":@"StaticTableLayoutViewController"},
+                       @{@"title":@"StackLayout-小栗子", @"controller":@"StackLayoutViewController"}
                      ];
 //    self.tableData = @[@{@"菜单":@[@{@"弹出菜单":@"PopupMenuTableViewController"}]},
 //                       @{@"列表":@[@{@"列表操作":@"TableViewController"}]},
