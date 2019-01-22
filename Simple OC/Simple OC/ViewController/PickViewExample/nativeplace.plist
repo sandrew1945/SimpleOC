@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>黑龙江省</key>
+	<array>
+		<string>哈尔滨市</string>
+		<string>佳木斯市</string>
+		<string>齐齐哈尔市</string>
+		<string>牡丹江市</string>
+		<string>大庆市</string>
+		<string>鸡西市</string>
+	</array>
+	<key>辽宁省</key>
+	<array>
+		<string>沈阳市</string>
+		<string>大连市</string>
+		<string>鞍山市</string>
+		<string>抚顺市</string>
+		<string>本溪市</string>
+		<string>丹东市</string>
+	</array>
+	<key>吉林省</key>
+	<array>
+		<string>长春市</string>
+		<string>吉林市</string>
+		<string>辽源市</string>
+		<string>辽源市</string>
+		<string>通化市</string>
+		<string>白山市</string>
+		<string>白城市</string>
+		<string>松原市</string>
+		<string>延边朝鲜族自治州</string>
+	</array>
+</dict>
+</plist>
